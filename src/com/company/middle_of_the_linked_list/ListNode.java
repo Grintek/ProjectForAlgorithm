@@ -1,4 +1,4 @@
-package com.company;
+package com.company.middle_of_the_linked_list;
 
 public class ListNode {
     int val;
@@ -15,7 +15,7 @@ public class ListNode {
     @Override
     public String toString() {
         StringBuilder str = new StringBuilder();
-        ListNode stepNode = next;
+        ListNode stepNode = this;
         while (stepNode != null){
             str.append("[").append(stepNode.val).append("]").append(",");
             stepNode = stepNode.next;
