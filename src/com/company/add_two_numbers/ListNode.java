@@ -1,4 +1,4 @@
-package com.company.middle_of_the_linked_list;
+package com.company.add_two_numbers;
 
 public class ListNode {
     int val;

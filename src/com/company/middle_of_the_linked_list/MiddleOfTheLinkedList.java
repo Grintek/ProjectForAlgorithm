@@ -1,5 +1,7 @@
 package com.company.middle_of_the_linked_list;
 
+import com.company.ListNode;
+
 public class MiddleOfTheLinkedList {
 
     public static void main(String[] args) {
